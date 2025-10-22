@@ -33,6 +33,12 @@ export default function Header() {
               About
             </Link>
             <Link
+              href="/docs"
+              className="text-[hsl(var(--gray-dark))] hover:text-[hsl(var(--brand-blue))] transition-colors font-medium"
+            >
+              Docs
+            </Link>
+            <Link
               href="/contact"
               className="text-[hsl(var(--gray-dark))] hover:text-[hsl(var(--brand-blue))] transition-colors font-medium"
             >
@@ -81,6 +87,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
+              </Link>
+              <Link
+                href="/docs"
+                className="text-[hsl(var(--gray-dark))] hover:text-[hsl(var(--brand-blue))] transition-colors font-medium py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Docs
               </Link>
               <Link
                 href="/contact"
